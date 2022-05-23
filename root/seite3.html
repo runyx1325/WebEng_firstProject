@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>aller guten Seiten sind Drei...</title>
+  </head>
+  <style>
+  	table.bilder td {
+		background-color:#0000FF; 
+		border: solid 1px black;
+		padding: 10px;
+	}
+  </style>
+  <body>
+<h1>Seite 3</h1>
+<a href="index.html">Startseite</a> - <a href="seite2.html">zur Seite 2</a> - Seite 3
+<hr>
+<h2>Ein HTML-Formular</h2>
+<form method="get">
+  <input type="password" value="hallo" name="passwd" />
+  <input type="submit" value="Los!"/>
+  <select name="land" size="5" multiple="multiple">
+    <option value="de">Deutschland</option>
+    <option value="it">Italien</option>
+  </select>
+</form>
+<hr>
+<h2>Eine Tabelle</h2>
+<table border="1">
+  <tr>
+    <th width="100">Eins</th>
+    <td>Zwei</td>
+    <td rowspan="2">Drei</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Vier</td>
+  </tr>
+  <tr>
+    <td align="center">Fünf</td>
+  </tr>
+</table>
+<hr>
+<h2>Tabelle mit Bildern</h2>
+<table border="0" class="bilder">
+  <tr>
+    <th>GIF</th>
+    <th>JPG</th>
+    <th>PNG</th>
+  </tr>
+  <tr>
+  	<td><img src="PapaKlein.gif" width="300" height="423"></td>
+  	<td><img src="PapaKlein.jpg" width="300" height="423"></td>
+  	<td><img src="PapaKlein.png" width="300" height="423"></td>
+  </tr>
+</table>
+</body>
+</html>
